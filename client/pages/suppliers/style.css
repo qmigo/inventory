@@ -1,0 +1,26 @@
+#form{
+    display: none;
+    flex-direction: column;
+}
+.submit-add
+{
+    display: none;
+}
+.form>label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form>input,textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.btnActionWrapper
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;   
+}
+body>h1{
+    display: inline;
+}
